@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'RedDead';
+    src: local("Red Dead Redemption"), url('../src/font/RedDead.ttf') format("opentype");
+    font-weight: normal;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    font-family: 'RedDead', sans-serif;
+}
