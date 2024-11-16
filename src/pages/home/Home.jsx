@@ -1,5 +1,4 @@
 import React from 'react'
-import home_bg from '../../../public/home-bg.jpg'
 import stroke from '../../assets/stroke.png'
 import stroke_y from '../../assets/stroke-y.png'
 import arthur from '../../assets/characters/arthur.png'

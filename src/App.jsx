@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        <div className="h-full w-full">
+        <div className="h-full w-full font-custom">
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/vanderlindgang' element={<Gang />} />
