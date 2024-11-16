@@ -2,10 +2,14 @@ import React from 'react'
 import stroke from '../../assets/stroke.png'
 import stroke_y from '../../assets/stroke-y.png'
 import arthur from '../../assets/characters/arthur.png'
+import home_bg from '../../assets/bg/fundo_home.jpg'
 
 const Home = () => {
   return (
-    <div className="relative bg-[url('src/assets/bg/fundo_home.jpg')] w-full h-screen bg-cover bg-center">
+    <div style={{
+      backgroundImage: `url(${home_bg})`
+      }}
+      className={`relative w-full h-screen bg-cover bg-center`}>
       <div className="pt-36">
         <div className='flex items-center ml-4 h-[20rem]'>
           <div role='button' className="relative h-[9rem] w-[28rem] flex items-center justify-center">

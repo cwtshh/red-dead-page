@@ -4,16 +4,18 @@ import Arthur from '../characters/arthur/Arthur'
 import John from '../characters/john/John'
 import Dutch from '../characters/dutch/Dutch'
 import Rosea from '../characters/rosea/Rosea'
+import vanderlind_gang from '../../assets/bg/vanderlind_gang.jpg'
 
-const Gang = () => {
-  const [ activate, setActivated ] = useState(0)
-      
+const Gang = () => {      
   return (
     <div className="w-screen h-screen object-fill">
       
       <MegaScroll>
 
-        <div className="bg-[url('src/assets/bg/vanderlind_gang.jpg')] bg-cover bg-[0_100%] flex flex-col items-center justify-center h-full">
+        <div style={{
+          backgroundImage: `url(${vanderlind_gang})`
+          }} 
+          className={`bg-cover bg-[0_100%] flex flex-col items-center justify-center h-full`}>
           <h1 className="text-8xl text-white">Van Der Linde Gang</h1>
         </div>
 

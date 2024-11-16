@@ -1,9 +1,10 @@
 import React from 'react'
+import char_bg from '../../../assets/bg/char_bg.jpg'
 import dutch from '../../../assets/characters/dutch.png'
 
 const Dutch = () => {
   return (
-    <div className="bg-[url('src/assets/bg/char_bg.jpg')] bg-cover bg-[0_100%] flex items-center justify-center h-full">
+    <div style={{ backgroundImage: `url(${char_bg})`}} className="bg-cover bg-[0_100%] flex items-center justify-center h-full">
         
         <div className='mt-[40em] ml-8 text-white flex flex-col gap-10'>
             <h1 className='font-bold text-8xl'>Dutch Van Der Linde</h1>
