@@ -8,7 +8,7 @@ import vanderlind_gang from '../../assets/bg/vanderlind_gang.jpg'
 
 const Gang = () => {      
   return (
-    <div className="w-screen h-screen object-fill">
+    <div className="w-screen h-screen object-fill animate-ease-in-page">
       
       <MegaScroll>
 
